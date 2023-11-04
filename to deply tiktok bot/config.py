@@ -1,1 +1,0 @@
-bot_api = '5911206244:AAF_IvgteMLu6wRh3sA56wlCD9Bx0Ur3DWU'
