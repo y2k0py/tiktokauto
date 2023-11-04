@@ -140,7 +140,7 @@ async def upload_video_step(message: types.Message, state: FSMContext):
 
         uploaded_count = 0  # Счетчик загруженных видео
 
-       for tag in tags:
+        for tag in tags:
             uploadVideo(session_id, video_path, video_name, tag, verbose=True)
             uploaded_count += 1
             await bot.edit_message_text(chat_id=message.chat.id, message_id=message.message_id, text=f"Видео {uploaded_count} из 6 загружено")
